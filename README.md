@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/lyquocnam/demo-travis.svg?token=2xrhEFnK1zAu8pgzzqsh&branch=master)](https://travis-ci.com/lyquocnam/demo-travis)
