@@ -1,6 +1,12 @@
 language: go
 go:
   - "1.11.4"
-before_install:
-  - go mod tidy
-script: go test
+  - master
+os:
+  - linux
+  - osx
+dist: trusty
+install: true
+script:
+  - env GO111MODULE=on go build
+  - env GO111MODULE=on go test
